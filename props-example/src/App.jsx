@@ -1,6 +1,7 @@
 import './App.css'
 
 import TodoItem from './components/TodoItem/TodoItem'
+import AddTodo from './components/AddTodo/AddTodo'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <TodoItem todo="Brygg kaffe" done={false} />
         <TodoItem todo="Drick kaffe" done={false} />
       </ul>
+      <AddTodo />
     </div>
   )
 }
