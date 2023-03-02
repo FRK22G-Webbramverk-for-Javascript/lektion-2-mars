@@ -13,6 +13,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --background-color: #37136f66;
+  --primary-color: #441D81;
+  --button-color: #EC315A;
+  --border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #0a7dd066;
+  background-color: var(--background-color);
 }
 
 h1 {

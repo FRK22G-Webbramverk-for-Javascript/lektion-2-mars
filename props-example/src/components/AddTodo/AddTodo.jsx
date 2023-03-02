@@ -13,9 +13,10 @@ function AddTodo() {
     }
 
     return (
-        <section>
-            <input type="text" onChange={ getTodoInput } />
-            <button onClick={ handleClick }>Lägg till todo</button>
+        <section className="add-todo">
+            <input type="text" className='add-todo__input' 
+            onChange={ getTodoInput } placeholder="Lägg till en todo" />
+            <button className="add-todo__button" onClick={ handleClick }>Lägg till todo</button>
         </section>
     )
 }
